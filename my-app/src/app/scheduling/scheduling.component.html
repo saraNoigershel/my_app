@@ -1,0 +1,20 @@
+<p>scheduling works!</p>
+<form>
+<table>
+    <tr>
+    <th>Sun</th>
+    <th>Mon</th>
+    <th>Tue</th>
+    <th>Wedn</th>
+    <th>Thur</th>
+    </tr>
+    <tr>
+        <td *ngFor="let day of [0,1,2,3,4]">
+            <select name=`day+${day}` id=`day+${day}` [ngStyle]="{'background-color':chosen[day]!=-1?'green':'red'}"  onchange="saveSchedulingForDay(day,volunteer)" onfocus="this.selectedIndex = -1">
+                <option *ngFor="let volunteer of getSchedulingForDay(day) " (click)="saveSchedulingForDay(day,volunteer)" >{{volunteer.firstName}} </option>
+            </select>
+        </td>
+        </tr>
+</table>
+<button type="submit" (click)="save_schduling()">save</button>
+</form>

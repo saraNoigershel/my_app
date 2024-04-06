@@ -1,0 +1,33 @@
+<p>volunteer-list works!</p>
+<ul class="list-group">
+    <li *ngFor="let volunteer of volunteers"
+    class="list-group-item"
+    style="display: flex; flex-direction: row;"
+   
+
+    [ngClass]="{ 'list-group-item-success': volunteer.days,
+                     'list-group-item-danger': !volunteer.days}" 
+                     
+    [ngStyle]="{'color':volunteer.days? 'green':'red'}"
+>
+       <div class="row">
+            volunteer: {{volunteer.id}}
+        </div>
+        <div class="col-3"> </div>
+        <div class="col-3">
+             first name:  {{volunteer.firstName}}
+        </div>
+        <div class="col-3">
+             last name:  {{volunteer.lastName}}
+        </div>
+         <div class="col-3" style="color:blue">
+            <button class="btn btn-primary" (click)="editVolunteer(volunteer)">edit</button>
+        </div>
+        <div class="col-2">
+            <button class="btn btn-primary">delete</button>
+        </div> 
+
+        
+
+    </li>
+</ul>

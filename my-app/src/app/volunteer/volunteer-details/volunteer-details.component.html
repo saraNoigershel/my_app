@@ -1,0 +1,29 @@
+<h1>details</h1>
+<form [formGroup]="volunteerForm">
+    <input formControlName="firstName"  type="text" name="firstName" [value]="Volunteer?.firstName">
+    <ng-container *ngIf="volunteerForm.controls['firstName'].errors&&volunteerForm.controls['firstName'].touched">
+        <div class="alert alert-danger" *ngIf="volunteerForm.controls['firstName'].errors['required']">
+            this field is required
+        </div>
+        <div class="alert alert-danger" *ngIf="volunteerForm.controls['firstName'].errors['maxLength']">
+            this field is disabled getting more than 15 characters
+        </div>
+    </ng-container>
+    <input formControlName="lastName" type="text" name="lastName" [value]="Volunteer?.lastName">
+    <input formControlName="tel"  type="text" name="tel" [value]="Volunteer?.tel">
+    <input type="checkbox" name="days[]" value="Sun" formControlName="Sun" > Sun
+    <input type="checkbox" name="days[]" value="Mon" formControlName="Mon" > Mon
+    <input type="checkbox" name="days[]" value="Tues" formControlName="Tues" > Tues
+    <input type="checkbox" name="days[]" value="Wedn" formControlName="Wedn" > Wedn
+    <input type="checkbox" name="days[]" value="Thur" formControlName="Thur" > Thur
+    
+   
+    <button type="reset">clear</button>
+    <button type="submit" (click)="saveVolunteer()">save</button>
+    
+
+</form>
+<div *ngIf="formNotValid">
+    this form has mistakes. please fix them
+
+</div>
