@@ -81,11 +81,11 @@ export class VolunteerDetailsComponent implements OnInit {
   }
   isSaveSucceed = (val: boolean) => {
     if(val){
-      alert("the details were saved successfully!!!😀😀😀");
+      console.log("the details were saved successfully!!!😀😀😀");
 
     }
     else{
-      alert("error occurred in this save😪😪😪");
+      console.log("error occurred in this save😪😪😪");
     }
 
   }

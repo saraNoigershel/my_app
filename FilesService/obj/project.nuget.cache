@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eeDSjJ//dyyXXfiCNBXMz0Dv3JsMxFPcha7FB1gKqbrHKMcWWKEIKaNhtzDGIdlfCycrR1p4m89DT+ld71DwyA==",
+  "dgSpecHash": "mRXpXQiqfkNQMaQS8W7sbfa9GxALPwtNgOwdUpiPNHrCnljMm0UiVbtj7X0hZjW+H9jCQQS6ox498IgsFdqzVQ==",
   "success": true,
-  "projectFilePath": "E:\\angular\\angular-project\\server-project\\FilesService\\FilesService.csproj",
+  "projectFilePath": "E:\\angular\\angular-project\\FilesService\\FilesService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

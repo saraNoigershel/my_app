@@ -27,13 +27,13 @@ namespace my_server.Controllers
             return this._iscdl.GetScheduling();
         }
         [HttpGet]
-        public List<Int64> GetChosen(){
+        public Scheduling GetChosen(){
             return this._iscdl.GetChosenScheduling();
 
         }
 
         [HttpPut]
-        public bool Save(List<Int64> scheduling){
+        public bool Save(Scheduling scheduling){
             return this._iscdl.SaveScheduling(scheduling);
         }
     }

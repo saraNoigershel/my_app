@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\angular\\angular-project\\server-project\\FilesService\\FilesService.csproj": {}
+    "E:\\angular\\angular-project\\FilesService\\FilesService.csproj": {}
   },
   "projects": {
-    "E:\\angular\\angular-project\\server-project\\FilesService\\FilesService.csproj": {
+    "E:\\angular\\angular-project\\FilesService\\FilesService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\angular\\angular-project\\server-project\\FilesService\\FilesService.csproj",
+        "projectUniqueName": "E:\\angular\\angular-project\\FilesService\\FilesService.csproj",
         "projectName": "FilesService",
-        "projectPath": "E:\\angular\\angular-project\\server-project\\FilesService\\FilesService.csproj",
+        "projectPath": "E:\\angular\\angular-project\\FilesService\\FilesService.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\angular\\angular-project\\server-project\\FilesService\\obj\\",
+        "outputPath": "E:\\angular\\angular-project\\FilesService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

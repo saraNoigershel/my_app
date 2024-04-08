@@ -70,3 +70,15 @@ E:\angular\angular-project\server-project\FilesService\obj\Debug\net6.0\FilesSer
 E:\angular\angular-project\server-project\FilesService\obj\Debug\net6.0\refint\FilesService.dll
 E:\angular\angular-project\server-project\FilesService\obj\Debug\net6.0\FilesService.pdb
 E:\angular\angular-project\server-project\FilesService\obj\Debug\net6.0\ref\FilesService.dll
+E:\angular\angular-project\FilesService\bin\Debug\net6.0\FilesService.deps.json
+E:\angular\angular-project\FilesService\bin\Debug\net6.0\FilesService.dll
+E:\angular\angular-project\FilesService\bin\Debug\net6.0\FilesService.pdb
+E:\angular\angular-project\FilesService\obj\Debug\net6.0\FilesService.csproj.AssemblyReference.cache
+E:\angular\angular-project\FilesService\obj\Debug\net6.0\FilesService.GeneratedMSBuildEditorConfig.editorconfig
+E:\angular\angular-project\FilesService\obj\Debug\net6.0\FilesService.AssemblyInfoInputs.cache
+E:\angular\angular-project\FilesService\obj\Debug\net6.0\FilesService.AssemblyInfo.cs
+E:\angular\angular-project\FilesService\obj\Debug\net6.0\FilesService.csproj.CoreCompileInputs.cache
+E:\angular\angular-project\FilesService\obj\Debug\net6.0\FilesService.dll
+E:\angular\angular-project\FilesService\obj\Debug\net6.0\refint\FilesService.dll
+E:\angular\angular-project\FilesService\obj\Debug\net6.0\FilesService.pdb
+E:\angular\angular-project\FilesService\obj\Debug\net6.0\ref\FilesService.dll

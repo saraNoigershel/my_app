@@ -10,8 +10,8 @@ namespace my_server.interfaces
     {
         List<Volunteer> GetVoluteersByDay(int day);
         List<List<Volunteer>> GetScheduling();
-        bool SaveScheduling(List<Int64> scheduling);
-        public List<Int64> GetChosenScheduling();
+        bool SaveScheduling(Scheduling scheduling);
+        public Scheduling GetChosenScheduling();
         bool IsChoose(int id,int day);
     }
 }

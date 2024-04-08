@@ -16,10 +16,8 @@ namespace my_server.services
         {
             _fs = fs;
         }
-        List<Int64> chosen = new List<Int64>(){
-            -1,-1,-1,-1,-1
-        };
-
+        Scheduling chosen = new Scheduling();
+           
         List<List<Volunteer>> scheduling = new List<List<Volunteer>>(){
             new List<Volunteer>(),
             new List<Volunteer>(),
@@ -55,23 +53,21 @@ namespace my_server.services
             });
             return scheduling;
         }
-        public bool SaveScheduling(List<Int64> scheduling)
+        public bool SaveScheduling(Scheduling scheduling)
         {
-            Console.WriteLine(chosen);
-            for (int i = 0; i < this.chosen.Count(); i++)
+            for (int i = 0; i < this.chosen.Chosen.Count(); i++)
             {
-                chosen[i] = scheduling[i];
+                this.chosen.Chosen[i] = scheduling.Chosen[i];
             }
             return true;
         }
-        public List<Int64> GetChosenScheduling()
+        public Scheduling GetChosenScheduling()
         {
             return chosen;
         }
         public bool IsChoose(int id, int day)
         {
-            Console.WriteLine(chosen);
-            if (this.chosen[day] == id)
+            if (this.chosen.Chosen[day] == id)
             {
                 return true;
             }
