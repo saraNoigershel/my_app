@@ -13,8 +13,10 @@ export class SchedulingComponent {
 
   }
   ngOnInit() {
-    this.ss.getScheduling().subscribe(val => this.volunteers_scheduling = val)
+    this.ss.getScheduling().subscribe(val => this.volunteers_scheduling = val);//get the scheduling array
+    this.ss.getChosenScheduling().subscribe(val=>this.chosen=val);//get the array of ids of the volunteers to be chosen each day
     this.schedulingForm.setValue({ Sun: this.chosen[0], Mon: this.chosen[1], Tues: this.chosen[2], Wedn: this.chosen[3], Thur: this.chosen[4] })
+    //set the form control values
 
   }
   schedulingForm: FormGroup = new FormGroup({
@@ -26,6 +28,7 @@ export class SchedulingComponent {
     "Thur": new FormControl(-1)
   });
   Days: string[] = ["Sun", "Mon", "Tues", "Wedn", "Thur"];
+  //array of ids to sign which volunteer was chosen for each day
   chosen: number[] = [-1, -1, -1, -1, -1];
   volunteers_scheduling: Volunteer[][] = [[], [], [], [], []];
   getSchedulingForDay = (day: number): Volunteer[] => {

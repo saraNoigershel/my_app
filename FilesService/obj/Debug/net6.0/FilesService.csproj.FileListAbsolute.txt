@@ -1,0 +1,72 @@
+D:\API\שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\FilesService.csproj.AssemblyReference.cache
+D:\API\שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\FilesService.GeneratedMSBuildEditorConfig.editorconfig
+D:\API\שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\FilesService.AssemblyInfoInputs.cache
+D:\API\שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\FilesService.AssemblyInfo.cs
+D:\API\שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\FilesService.csproj.CoreCompileInputs.cache
+D:\API\שרה נויגרשלי\pizzale\FilesService\bin\Debug\net6.0\FilesService.deps.json
+D:\API\שרה נויגרשלי\pizzale\FilesService\bin\Debug\net6.0\FilesService.dll
+D:\API\שרה נויגרשלי\pizzale\FilesService\bin\Debug\net6.0\FilesService.pdb
+D:\API\שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\FilesService.dll
+D:\API\שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\refint\FilesService.dll
+D:\API\שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\FilesService.pdb
+D:\API\שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\ref\FilesService.dll
+D:\API\פרויקט שרה נויגרשלי\pizzale\FilesService\bin\Debug\net6.0\FilesService.deps.json
+D:\API\פרויקט שרה נויגרשלי\pizzale\FilesService\bin\Debug\net6.0\FilesService.dll
+D:\API\פרויקט שרה נויגרשלי\pizzale\FilesService\bin\Debug\net6.0\FilesService.pdb
+D:\API\פרויקט שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\FilesService.csproj.AssemblyReference.cache
+D:\API\פרויקט שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\FilesService.GeneratedMSBuildEditorConfig.editorconfig
+D:\API\פרויקט שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\FilesService.AssemblyInfoInputs.cache
+D:\API\פרויקט שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\FilesService.AssemblyInfo.cs
+D:\API\פרויקט שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\FilesService.csproj.CoreCompileInputs.cache
+D:\API\פרויקט שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\FilesService.dll
+D:\API\פרויקט שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\refint\FilesService.dll
+D:\API\פרויקט שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\FilesService.pdb
+D:\API\פרויקט שרה נויגרשלי\pizzale\FilesService\obj\Debug\net6.0\ref\FilesService.dll
+H:\api\פרויקט שרה נויגרשל\pizzale\FilesService\bin\Debug\net6.0\FilesService.deps.json
+H:\api\פרויקט שרה נויגרשל\pizzale\FilesService\bin\Debug\net6.0\FilesService.dll
+H:\api\פרויקט שרה נויגרשל\pizzale\FilesService\bin\Debug\net6.0\FilesService.pdb
+H:\api\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.csproj.AssemblyReference.cache
+H:\api\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.GeneratedMSBuildEditorConfig.editorconfig
+H:\api\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.AssemblyInfoInputs.cache
+H:\api\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.AssemblyInfo.cs
+H:\api\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.csproj.CoreCompileInputs.cache
+H:\api\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.dll
+H:\api\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\refint\FilesService.dll
+H:\api\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.pdb
+H:\api\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\ref\FilesService.dll
+D:\API\פרויקט שרה נויגרשל\pizzale\FilesService\bin\Debug\net6.0\FilesService.deps.json
+D:\API\פרויקט שרה נויגרשל\pizzale\FilesService\bin\Debug\net6.0\FilesService.dll
+D:\API\פרויקט שרה נויגרשל\pizzale\FilesService\bin\Debug\net6.0\FilesService.pdb
+D:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.csproj.AssemblyReference.cache
+D:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.GeneratedMSBuildEditorConfig.editorconfig
+D:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.AssemblyInfoInputs.cache
+D:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.AssemblyInfo.cs
+D:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.csproj.CoreCompileInputs.cache
+D:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.dll
+D:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\refint\FilesService.dll
+D:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.pdb
+D:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\ref\FilesService.dll
+E:\API\פרויקט שרה נויגרשל\pizzale\FilesService\bin\Debug\net6.0\FilesService.deps.json
+E:\API\פרויקט שרה נויגרשל\pizzale\FilesService\bin\Debug\net6.0\FilesService.dll
+E:\API\פרויקט שרה נויגרשל\pizzale\FilesService\bin\Debug\net6.0\FilesService.pdb
+E:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.csproj.AssemblyReference.cache
+E:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.GeneratedMSBuildEditorConfig.editorconfig
+E:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.AssemblyInfoInputs.cache
+E:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.AssemblyInfo.cs
+E:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.csproj.CoreCompileInputs.cache
+E:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.dll
+E:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\refint\FilesService.dll
+E:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\FilesService.pdb
+E:\API\פרויקט שרה נויגרשל\pizzale\FilesService\obj\Debug\net6.0\ref\FilesService.dll
+E:\angular\angular-project\server-project\FilesService\bin\Debug\net6.0\FilesService.deps.json
+E:\angular\angular-project\server-project\FilesService\bin\Debug\net6.0\FilesService.dll
+E:\angular\angular-project\server-project\FilesService\bin\Debug\net6.0\FilesService.pdb
+E:\angular\angular-project\server-project\FilesService\obj\Debug\net6.0\FilesService.csproj.AssemblyReference.cache
+E:\angular\angular-project\server-project\FilesService\obj\Debug\net6.0\FilesService.GeneratedMSBuildEditorConfig.editorconfig
+E:\angular\angular-project\server-project\FilesService\obj\Debug\net6.0\FilesService.AssemblyInfoInputs.cache
+E:\angular\angular-project\server-project\FilesService\obj\Debug\net6.0\FilesService.AssemblyInfo.cs
+E:\angular\angular-project\server-project\FilesService\obj\Debug\net6.0\FilesService.csproj.CoreCompileInputs.cache
+E:\angular\angular-project\server-project\FilesService\obj\Debug\net6.0\FilesService.dll
+E:\angular\angular-project\server-project\FilesService\obj\Debug\net6.0\refint\FilesService.dll
+E:\angular\angular-project\server-project\FilesService\obj\Debug\net6.0\FilesService.pdb
+E:\angular\angular-project\server-project\FilesService\obj\Debug\net6.0\ref\FilesService.dll
