@@ -11,6 +11,7 @@ namespace my_server.services
 {
     public class SchedulingService : ISchedule
     {
+        //a service object for read and write to a file
         private readonly IFile _fs;
         public SchedulingService(IFile fs)
         {
@@ -34,6 +35,8 @@ namespace my_server.services
         }
         public List<List<Volunteer>> GetScheduling()
         {
+            //build a list of days and who wants to volunteer each day 
+            //by the choices of the volunteers
 
             List<Volunteer> listi = _fs.Read<Volunteer>("data.json");
             listi.ForEach(v =>
@@ -53,6 +56,7 @@ namespace my_server.services
             });
             return scheduling;
         }
+        //save the volunteers who were chosen each day
         public bool SaveScheduling(Scheduling scheduling)
         {
             for (int i = 0; i < this.chosen.Chosen.Count(); i++)
@@ -65,6 +69,7 @@ namespace my_server.services
         {
             return chosen;
         }
+        //check if specipic volunteer was chosen to a specipic day
         public bool IsChoose(int id, int day)
         {
             if (this.chosen.Chosen[day] == id)

@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
-import { ActivatedRoute ,Router} from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Volunteer } from '../volunteer.model';
 import { VolunteerServiceService } from '../volunteer-service.service'
 
@@ -10,7 +10,7 @@ import { VolunteerServiceService } from '../volunteer-service.service'
   styleUrls: ['./volunteer-details.component.scss']
 })
 export class VolunteerDetailsComponent implements OnInit {
-  constructor(private _acr: ActivatedRoute, private vs: VolunteerServiceService,private router: Router) {
+  constructor(private _acr: ActivatedRoute, private vs: VolunteerServiceService, private router: Router) {
 
   }
   volunteerForm: FormGroup = new FormGroup({
@@ -38,33 +38,35 @@ export class VolunteerDetailsComponent implements OnInit {
     return this._Volunteer;
   }
 
- 
+
   public set Volunteer(value: Volunteer | undefined) {
     this._Volunteer = value;
     if (value) {
-      this.volunteerForm.setValue({firstName: this.Volunteer?.firstName,
-         lastName: this.Volunteer?.lastName,
-         tel:this.Volunteer?.tel,
-         Sun:this.Volunteer?.days[0],
-         Mon:this.Volunteer?.days[1],
-         Tues:this.Volunteer?.days[2],
-         Wedn:this.Volunteer?.days[3],
-         Thur:this.Volunteer?.days[4]});
-  }
+      this.volunteerForm.setValue({
+        firstName: this.Volunteer?.firstName,
+        lastName: this.Volunteer?.lastName,
+        tel: this.Volunteer?.tel,
+        Sun: this.Volunteer?.days[0],
+        Mon: this.Volunteer?.days[1],
+        Tues: this.Volunteer?.days[2],
+        Wedn: this.Volunteer?.days[3],
+        Thur: this.Volunteer?.days[4]
+      });
     }
-  
+  }
+//save volunteer details from form to server
   saveVolunteer = () => {
     if (this.volunteerForm.valid) {
       console.log("save...");
-      this.Volunteer!.firstName=this.volunteerForm!.value.firstName;
-      this.Volunteer!.lastName=this.volunteerForm!.value.lastName;
-      this.Volunteer!.tel=this.volunteerForm!.value.tel;
-      this.Volunteer!.days[0]=this.volunteerForm!.value.Sun;
-      this.Volunteer!.days[1]=this.volunteerForm!.value.Mon;
-      this.Volunteer!.days[2]=this.volunteerForm!.value.Tues;
-      this.Volunteer!.days[3]=this.volunteerForm!.value.Wedn;
-      this.Volunteer!.days[4]=this.volunteerForm!.value.Thur;
-      this.vs.update(this.Volunteer!).subscribe(val =>{this.isSaveSucceed(val)},err=>{this.alertError(err)} );
+      this.Volunteer!.firstName = this.volunteerForm!.value.firstName;
+      this.Volunteer!.lastName = this.volunteerForm!.value.lastName;
+      this.Volunteer!.tel = this.volunteerForm!.value.tel;
+      this.Volunteer!.days[0] = this.volunteerForm!.value.Sun;
+      this.Volunteer!.days[1] = this.volunteerForm!.value.Mon;
+      this.Volunteer!.days[2] = this.volunteerForm!.value.Tues;
+      this.Volunteer!.days[3] = this.volunteerForm!.value.Wedn;
+      this.Volunteer!.days[4] = this.volunteerForm!.value.Thur;
+      this.vs.update(this.Volunteer!).subscribe(val => { this.isSaveSucceed(val) }, err => { this.alertError(err) });
       this.router.navigate(['/volunteers/volunteerList']);
     }
     else {
@@ -72,19 +74,21 @@ export class VolunteerDetailsComponent implements OnInit {
       console.log("not save...");
     }
   }
-  alertError=(err:any)=>{
-    let new_err:string=err.error;
-    let error:string=new_err.split("\r",1)[0]
+  //show error
+  alertError = (err: any) => {
+    let new_err: string = err.error;
+    let error: string = new_err.split("\r", 1)[0]
     alert(error);
-    
+
 
   }
+  //write to log if the save succseed
   isSaveSucceed = (val: boolean) => {
-    if(val){
+    if (val) {
       console.log("the details were saved successfully!!!😀😀😀");
 
     }
-    else{
+    else {
       console.log("error occurred in this save😪😪😪");
     }
 
