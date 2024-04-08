@@ -64,7 +64,7 @@ export class VolunteerDetailsComponent implements OnInit {
       this.Volunteer!.days[2]=this.volunteerForm!.value.Tues;
       this.Volunteer!.days[3]=this.volunteerForm!.value.Wedn;
       this.Volunteer!.days[4]=this.volunteerForm!.value.Thur;
-      this.vs.update(this.Volunteer!).subscribe(val =>{this.isSaveSucceed(val)} );
+      this.vs.update(this.Volunteer!).subscribe(val =>{this.isSaveSucceed(val)},err=>{this.alertError(err)} );
       this.router.navigate(['/volunteers/volunteerList']);
     }
     else {
@@ -72,12 +72,20 @@ export class VolunteerDetailsComponent implements OnInit {
       console.log("not save...");
     }
   }
+  alertError=(err:any)=>{
+    let new_err:string=err.error;
+    let error:string=new_err.split("\r",1)[0]
+    alert(error);
+    
+
+  }
   isSaveSucceed = (val: boolean) => {
     if(val){
+      alert("the details were saved successfully!!!😀😀😀");
 
     }
     else{
-      
+      alert("error occurred in this save😪😪😪");
     }
 
   }

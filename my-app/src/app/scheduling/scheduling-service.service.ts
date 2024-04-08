@@ -15,8 +15,13 @@ export class SchedulingServiceService {
   getScheduling(): Observable<Volunteer[][]> {
     return this._http.get<Volunteer[][]>("/api/scheduling/all");
   }
-  saveScheduling(Scheduling: number[]): Observable<boolean> {
-    return this._http.put<boolean>("api/scheduling/save", Scheduling);
+  saveChosenScheduling(scheduling: number[]): Observable<boolean> {
+    return this._http.put<boolean>("/api/scheduling/save", scheduling);
+
+
+  }
+  getChosenScheduling(): Observable<number[]> {
+    return this._http.get<number[]>("/api/scheduling/getChosen");
 
 
   }

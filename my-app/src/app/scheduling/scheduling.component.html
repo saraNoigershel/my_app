@@ -9,9 +9,12 @@
     <th>Thur</th>
     </tr>
     <tr>
-        <td *ngFor="let day of [0,1,2,3,4]">
-            <select name=`day+${day}` id=`day+${day}` [ngStyle]="{'background-color':chosen[day]!=-1?'green':'red'}"  onchange="saveSchedulingForDay(day,volunteer)" onfocus="this.selectedIndex = -1">
-                <option *ngFor="let volunteer of getSchedulingForDay(day) " (click)="saveSchedulingForDay(day,volunteer)" >{{volunteer.firstName}} </option>
+        <td *ngFor="let day of [0,1,2,3,4]" [formGroup]="schedulingForm">
+            <select name=`day+${day}`
+             [formControlName]="Days[day]" 
+            [ngStyle]="{'background-color':chosen[day]!=-1?'green':'red'}" 
+             (change)="chosen[day]=-2" onfocus="this.selectedIndex = -1">
+                <option *ngFor="let volunteer of getSchedulingForDay(day)" [value]="volunteer.id" >{{volunteer.firstName}} </option>
             </select>
         </td>
         </tr>
