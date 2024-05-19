@@ -490,8 +490,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "e:\\angular\\angular-project\\FilesService\\FilesService.csproj": {
-              "projectPath": "e:\\angular\\angular-project\\FilesService\\FilesService.csproj"
+            "E:\\angular\\angular-project\\FilesService\\FilesService.csproj": {
+              "projectPath": "E:\\angular\\angular-project\\FilesService\\FilesService.csproj"
             }
           }
         }
